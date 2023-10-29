@@ -1,0 +1,36 @@
+.Visited-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  background-color: #1f1f2f;
+}
+
+.country-img {
+  width: auto;
+}
+
+@media screen and (min-width: 576px) {
+  .country-img {
+    width: 300px;
+  }
+}
+
+.RemoveBtn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding: 0px 8px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  outline: none;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  padding: 5px 15px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 5px;
+}
